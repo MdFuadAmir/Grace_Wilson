@@ -26,7 +26,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full py-10 md:py-20 px-6 bg-linear-to-r from-[#ecfeff]/80 via-[#fff7ed]/80 to-[#fdf4ff]/80"
+      className="w-full py-14 md:py-20 px-6 bg-linear-to-r from-[#ecfeff]/80 via-[#fff7ed]/80 to-[#fdf4ff]/80"
     >
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* IMAGE SIDE */}

@@ -12,7 +12,7 @@ import Tools from "../Components/Tools";
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Navbar />
       <Hero />
       <About />

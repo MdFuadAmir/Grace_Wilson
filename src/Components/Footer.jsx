@@ -74,7 +74,7 @@ const Footer = () => {
 
             <div className="flex items-center gap-2 text-sm text-gray-600 mb-3">
               <FaEnvelope className="text-teal-500" />
-              example@email.com
+              mdfuadamir@email.com
             </div>
 
             {/* Social Icons */}

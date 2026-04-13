@@ -29,7 +29,7 @@ const CaseStudies = () => {
   return (
     <section
       id="cases"
-      className="w-full py-16 md:py-24 px-6 bg-linear-to-r from-[#ecfeff]/80 via-[#fff7ed]/80 to-[#fdf4ff]/80"
+      className="w-full py-16 md:py-24 px-6 bg-linear-to-r from-[#ecfeff]/80 via-[#fff7ed]/80 to-[#fdf4ff]/80 overflow-hidden"
     >
       <div className="max-w-6xl mx-auto">
         {/* Header */}
