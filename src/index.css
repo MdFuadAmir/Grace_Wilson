@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+  font-family: "Inder", sans-serif;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;   
+}
