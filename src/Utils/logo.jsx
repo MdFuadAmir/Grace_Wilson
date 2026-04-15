@@ -1,5 +1,5 @@
+import { FaBullhorn } from "react-icons/fa";
 import { Link } from "react-scroll";
-import logo from "../assets/grace1.png";
 const Logo = () => {
   return (
     <Link
@@ -8,10 +8,9 @@ const Logo = () => {
       duration={500}
       className="flex items-center gap-2 text-2xl font-semibold text-gray-700 tracking-wide cursor-pointer hover:scale-105 duration-500"
     >
-      <img src={logo} alt="" className="w-8 h-8" />{" "}
-      <p>
+      <FaBullhorn className="text-teal-500"/>
+      <p className="bg-linear-to-r from-teal-500 via-green-500 to-orange-500 bg-clip-text text-transparent font-semibold">
         Grace Wilson
-        <span className="text-indigo-500 animate-pulse">.</span>
       </p>
     </Link>
   );
