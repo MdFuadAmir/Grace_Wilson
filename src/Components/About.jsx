@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import hero from "../assets/profile-1.png";
+import hero from "../../public/Images/profile-1.png";
 import { FaHandSparkles } from "react-icons/fa";
 import { FaMeta, FaChartLine } from "react-icons/fa6";
 import { SiGoogleads } from "react-icons/si";

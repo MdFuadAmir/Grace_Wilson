@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import hero from "../assets/hero1.jpg";
+import hero from "../../public/Images/hero1.png";
 import { FaRocket } from "react-icons/fa";
 import { FaChartLine } from "react-icons/fa6";
 const Hero = () => {
