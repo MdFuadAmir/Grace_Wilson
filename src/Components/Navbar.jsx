@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useLocation, useNavigate } from "react-router";
 import Logo from "../Utils/Logo";
-import DarkMood from "../Utils/DarkMood";
+import DarkMood from "../Utils/Darkmood";
 
 const Navbar = () => {
   const [active, setActive] = useState("home");
