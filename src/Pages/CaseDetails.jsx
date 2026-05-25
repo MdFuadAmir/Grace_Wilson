@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import { useParams, useNavigate } from "react-router";
 import { useEffect } from "react";
 import { FaArrowLeft } from "react-icons/fa";
-import {caseStudies} from "../assets/CaseData"
+import { caseStudies } from "../assets/CaseData";
+import SEO from "../Utils/SEO";
 
 const CaseDetails = () => {
   const { id } = useParams();
@@ -25,6 +26,10 @@ const CaseDetails = () => {
 
   return (
     <section className="w-full md:min-h-screen bg-[#ecfeff] dark:bg-[#0f1720] py-24 md:py-28 px-6">
+      <SEO
+        title={`${data.title} | Grace Winson Case Study`}
+        description={`${data.description.slice(0, 150)} Digital marketing case study focused on ${data.category}, strategy, growth, and campaign performance.`}
+      />
       <div className="max-w-5xl mx-auto">
         {/* Back */}
         <button

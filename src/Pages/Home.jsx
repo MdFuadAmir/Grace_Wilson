@@ -6,10 +6,15 @@ import Pricing from "../Components/Pricing";
 import Process from "../Components/Process";
 import Services from "../Components/Services";
 import Testimonials from "../Components/Testimonials";
+import SEO from "../Utils/SEO";
 
 const Home = () => {
   return (
     <div>
+      <SEO
+        title="Grace Winson | Digital Marketing Specialist"
+        description="Results-driven digital marketer helping brands grow through social media marketing, SEO, paid advertising, and content strategy."
+      />
       <div id="home">
         <Hero />
       </div>
